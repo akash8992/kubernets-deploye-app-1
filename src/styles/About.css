@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  header {
+    background-color: #282c34;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+    top: 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  
+  header nav ul li {
+    margin: 0 1em;
+  }
+  
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 4em 0;
+    min-height: 100vh;
+  }
+  
+  .about-section, .skills-section, .projects-section, .contact-section {
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 60px;
+  }
+  
+  .projects-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects-section ul li {
+    margin: 1em 0;
+  }
+  
